@@ -3,14 +3,25 @@ RedFlag is a pure-SQL fraud detection engine built on a simulated six-month tran
 Patterns detected:
 
 Velocity Fraud — 30+ transactions by one user in a single day
+
 Round-Amount Clustering — repeated exact round-number transactions signaling money laundering
+
 Card Testing — 30+ sub-₹10 transactions in one day
+
 Failed-Then-Succeeded — repeated failed attempts followed by a matching success (card cracking)
+
 Odd-Hour Concentration — 80%+ of activity between 2–5 AM
+
 Mule Accounts — large credits followed by fast, matching debits
+
 Refund Abuse — refund ratio above 40% of total transactions
+
 Merchant Collusion — top 5 users driving 60%+ of a merchant's volume
+
 Just-Under-Threshold (Structuring) — repeated transactions at ₹9,999 to dodge KYC checks
+
 Dormant-Then-Active — 90+ day inactivity followed by a sudden burst of activity
+
 Velocity Spike — monthly transaction count spiking to 5x+ the user's average
+
 Geographic Impossibility — transactions in two different cities within 60 minutes
